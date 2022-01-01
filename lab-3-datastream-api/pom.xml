@@ -50,6 +50,15 @@
             <version>1.11.0</version>
         </dependency>
 
+        <!-- new start for fix issue: [No ExecutorFactory found to execute the application] by qingzhongli.com 20220101 -->
+        <!-- FLINK-15090 -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-clients_2.11</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+        <!-- new end for fix issue: [No ExecutorFactory found to execute the application] by qingzhongli.com 20220101 -->
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
